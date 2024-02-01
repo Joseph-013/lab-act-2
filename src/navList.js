@@ -1,10 +1,9 @@
 const navList = [
     {
         title: 'Profile',
-        imgSrc: '.assets/megaphone.svg'
     },
     {
-        title: 'Grades'
+        title: 'Grades',
     },
     {
         title: 'Course Details'

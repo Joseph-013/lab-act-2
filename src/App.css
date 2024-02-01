@@ -40,3 +40,32 @@
     transform: rotate(360deg);
   }
 }
+
+.white-svg {
+    fill: white;
+}
+
+.font-poppins {
+    font-family: 'Poppins', sans-serif;
+}
+
+.text-navCustomFontSize {
+    font-size: 0.8rem; /* 14px */
+    line-height: 1.25rem; /* 20px */
+}
+
+.bg-navCustomLinkBg {
+    background-color: #333;
+}
+
+.breadcrumbs-red {
+    color: #b94708;
+}
+
+.color-invert {
+    filter: invert(1);
+}
+
+.rotate-45 {
+    transform: rotate(-45deg);
+}

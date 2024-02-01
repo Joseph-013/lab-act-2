@@ -1,12 +1,9 @@
-import './App.css';
-
-
+import './App.css'; 
 
 export default function NavLink(props) {
-    if (props.navObj.imgSrc == null) {
-        return <a href='www.example.com' className='no-underline text-white'>{props.navObj.title}</a>
-
-    } else {
-        return <img src={props.navObj.imgSrc} alt=''/>
-    }
+    return (
+        <li className='p-2 px-3 border border-black flex items-center justify-center'>
+            <a className='text-white font-medium text-navCustomFontSize font-poppins' href='www.example.com'>{props.navObj.title}</a>
+        </li>
+    );
 };
