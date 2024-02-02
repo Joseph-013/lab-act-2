@@ -33,7 +33,8 @@ function TermComponent(props) {
                                     ${(colIndex === 2 || colIndex === 3) ? 'text-center' : ''} 
                                     ${(colIndex === 2 || colIndex === 3 || colIndex === 4) ? '!text-black bg-orange-100' : ''}
                                     
-                                    `} key={colIndex}>{course[col.colName.toLowerCase()]}</td>
+                                    `} key={colIndex}>
+                                        {course[col.colName.toLowerCase()]}</td>
                                 ))}
                             </tr>
                         ))}
